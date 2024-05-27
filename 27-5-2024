@@ -82,7 +82,7 @@ upload_proxy() {
 }
 gen_data() {
     seq $FIRST_PORT $LAST_PORT | while read port; do
-        echo "n222/N222L123/$IP4/$port/$(gen64 $IP6)"
+        echo "h22334/k2N32/$IP4/$port/$(gen64 $IP6)"
     done
 }
 
